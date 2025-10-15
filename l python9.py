@@ -1,0 +1,5 @@
+input_str = input("Enter array : ")
+input_str = input_str.strip("[]")
+arr = list(map(int, input_str.split(',')))
+arr.sort(reverse=True)
+print("Output:", arr)
